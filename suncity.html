@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.suncityhospital.in</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #FF0000;
+            color: #fff;
+            padding: 20px 0;
+            display: flex;
+            align-items: center; /* Center align vertically */
+        }
+
+        nav {
+            background-color: #00B9FF;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 50px;
+            text-align: center; /* Center align text */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: white;
+            border: 6px solid;
+            color: black;
+            font-size: 29px;
+            text-transform: uppercase;
+            margin-right: 0px; /* Add space between the circle and the text */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="circle">
+        <span><br><br>SUNCITY HOSPITAL &#x1F3E5;</span>
+    </div>
+    <div style="flex: 0;"></div> <!-- Flex item to push the heading to the center -->
+    <div>
+        <h1>SUNCITY &#9764; HOSPITAL</h1>
+        <p><em>Serving Mankind</em></p>
+    </div>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">Doctors</a>
+    <a href="#" id="cfile:///Users/aadityasingh/Documents/contact.html">Contact</a> <!-- Add an id to the Contact button -->
+</nav>
+
+<main>
+    <h2><strong>Welcome to Suncity Hospital</strong></h2>
+    <p>If we do not lay out ourselves in the service of mankind whom should we serve?<br>At Suncity, we understand that your health is your most valuable asset, and we are committed to providing compassionate and comprehensive care to every patient who walks through our doors. With a team of highly skilled medical professionals and state-of-the-art facilities, we offer a wide range of medical services tailored to meet your individual needs. Whether you're seeking routine check-ups, specialized treatments, or emergency care, you can trust us to deliver top-quality healthcare with a personal touch. Your well-being is our top priority, and we strive to exceed your expectations at every step of your healthcare journey. Experience the difference at Suncity and take the first step towards a healthier, happier life today.</p>
+</main>
+
+<footer>
+    &copy; <script>document.write(new Date().getFullYear())</script> Suncity Hospital. All rights reserved.
+</footer>
+
+
+<script>
+    document.getElementById("contactBtn").addEventListener("click", function(event) {
+        event.preventDefault(); 
+        alert("Phone: 09151791483\nEmail: aadityasingh292004@gmail.com"); 
+    });
+</script>
+
+
+</body>
+</html>
